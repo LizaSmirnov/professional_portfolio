@@ -4,12 +4,13 @@
    margin: 0;
 }
   
-  
- 
+/*code for the backround color of page*/
  body {
      background-color: white;
  }
  
+ /*Header*/
+
  .header {
      padding: 10px;
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -50,26 +51,29 @@
  p {
      font-size: 16px;
  }
+
+ /*Link break for nav*/
+
   nav {
     display:block;
     background-color: lightgreen;
     size: 2px;
     margin-bottom: 1cm;
   }
-  
-  .hero {
-    
-}
- 
+
+/* content */
 
 
 .content {
   width: 75%;
   display: block;
   margin-left: 200px;
+  
 }
 
-.search-engine-optimization {
+/*For each section color change*/
+
+.about_me {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -83,7 +87,7 @@
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: green;
+  background-color: forestgreen;
   color: #ffffff;
 }
 
@@ -92,11 +96,11 @@
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: forestgreen;
+  background-color: darkgreen;
   color: #ffffff;
 }
 
-.search-engine-optimization img {
+.about_me img {
   max-height: 200px;
 }
 
@@ -108,9 +112,9 @@
   max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.about_me h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .online-reputation-management h2 {
@@ -122,6 +126,7 @@
   margin-bottom: 20px;
   font-size: 36px;
 }
+
 
 .footer {
   padding: 30px;
