@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
+   padding: 5px;
+   margin: 2px;
 }
   
 /*code for the backround color of page*/
@@ -17,8 +17,7 @@
      background-color: white;
      color: darkgreen;
      display:flex;
-     justify-content:left;
-     align-items: self-end;
+     justify-content:center;
     
  }
  
@@ -44,12 +43,12 @@
  }
  
  a {
-     color: darkgreen;
+     color: rgb(192, 211, 192);
      text-decoration: none;
  }
- 
+
  p {
-     font-size: 16px;
+     font-size: 25px;
  }
 
  /*Link break for nav*/
@@ -58,7 +57,7 @@
     display:block;
     background-color: lightgreen;
     size: 2px;
-    margin-bottom: 1cm;
+    margin-bottom: 10px;
   }
 
 /* content */
@@ -66,68 +65,198 @@
 
 .content {
   width: 75%;
-  display: block;
-  margin-left: 200px;
+  display: inline;
+  margin-left: 100px;
   
 }
 
 /*For each section color change*/
 
 .about_me {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
   padding: 50px;
-  height: 300px;
+  height: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: palegreen;
   color: #ffffff;
+  
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: forestgreen;
-  color: #ffffff;
+.resume {
+  display:flex;
+  justify-content: center;
+  margin-left: 200px;
 }
 
-.social-media-marketing {
-  margin-bottom: 20px;
+.resume p {
+  color:black;
+  font-size: 30px;
+}
+ 
+.text-block {
+  position:relative;
+  justify-content: center;
+  bottom: -250px;
+  right: 500px;
+  background-color: transparent;
+  color: black;
+
+}
+
+
+.github {
+  text-align: center;
+  margin-bottom: 10px;
   padding: 50px;
-  height: 300px;
+  height: 900px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: darkgreen;
   color: #ffffff;
+  font-size: 40px;
+  padding-right: 100px;
 }
 
-.about_me img {
-  max-height: 200px;
+
+.project-wide {
+  height: 500px;
+  
 }
 
-.online-reputation-management img {
-  max-height: 200px;
+.project {
+  width:20%;
+  display:inline-block;
+  vertical-align: top;
 }
 
-.social-media-marketing img {
-  max-height: 200px;
+
+.text-block2 {
+  position:relative;
+  justify-content: center;
+  bottom: 100px;
+  right:0px;
+  background-color: transparent;
+
 }
 
-.about_me h2 {
-  margin-bottom: 20px;
+.text-block3 {
+  position:relative;
+  justify-content: center;
+  bottom: 80px;
+  right:0px;
+  background-color: transparent;
+ 
+}
+
+.text-block4 {
+  position:relative;
+  justify-content: center;
+  bottom: 80px;
+  right:0px;
+  background-color: transparent;
+ 
+}
+
+h3 {
+color:white;
+}
+h4{
+  color: white;
+  font-size: 30px;
+}
+
+.github p {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  
+}
+
+
+.contact {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: darkolivegreen;
+  color: #ffffff;
+}
+
+ /* IMAGES */
+ .project-wide img{
+  height:500px;
+  width:700px;
+ }
+
+ .project img {
+  height:200px;
+  width:200px;
+  display:inline-block;
+ }
+
+ .resume img {
+  max-height: 500px;
+  max-width: 500px;
+
+ }
+
+
+.about_me img{
+  max-height: 100px;
+}
+
+/*Overlay Top*/
+.container {
+  display:flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 40%;
+  height: 300px;
+}
+.overlay {
+  position:absolute;
+  top: 70px;
+  left: 152px;
+  right: 0;
+  height: 100px;
+  width: 81%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: honeydew;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* TEXT */
+.text {
+  color: olivedrab;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.about_me h2, .resume h2, .contact h2 {
+  margin-bottom: 10px;
   font-size: 40px;
 }
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+.github h1 {
+  margin: 30px;
+  font-size: 60px ;
 }
 
 
+/*footer*/
+
+.contact p{
+  display: inline;
+  padding: 30px;
+}
 .footer {
   padding: 30px;
   clear: both;
@@ -139,3 +268,6 @@
   font-size: 20px;
 }
 
+@media screen and (max-width:400px){
+body{display:none}
+}
