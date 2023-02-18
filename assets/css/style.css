@@ -269,5 +269,5 @@ h4{
 }
 
 @media screen and (max-width:400px){
-body{display:none}
+body{display:all}
 }
