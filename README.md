@@ -51,6 +51,9 @@ PERFORMANCE OF THIS SOFTWARE.
 
 ## Badges
 
+##Deployment
+https://lizasmirnov.github.io/javascript_passwordgenerator/
+
 
 ## Features
 
