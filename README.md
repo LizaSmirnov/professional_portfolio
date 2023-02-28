@@ -12,7 +12,7 @@
 
 ## Installation
 
--I used a lot of the class code to get started from week one and two creat website. It was a lot of coping and pasting exactly what I needed as well as understanding what it was used for
+-I used a lot of the class code to get started from week one and two create website. It was a lot of coping and pasting exactly what I needed as well as understanding what it was used for
 
 ## Usage
 ![image](https://user-images.githubusercontent.com/122588135/219582907-2fdd4644-4733-4d4f-bbd7-8e169d4a5ad8.png)
