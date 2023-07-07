@@ -2,24 +2,24 @@
 
 ## Description
 
-- Using both Html and CSS learned assets to creat my first website
--for html we installed a lot of images as well as using href and anchors to have the links working correctly\
+- Using both Html and CSS learned assets to create my first website
+-for html we installed a lot of images as well as used href and anchors to have the links working correctly\
 -for html we also made sure to add img alt to the tags
--css we used boxing and a lot of design to creat the layout
--css I also use @meida to make sure website is the same when minimized.
+-css we used boxing and a lot of design to create the layout
+-css I also use @meida to make sure the website is the same when minimized.
 -css I also made sure to add a reset.css to ensure the website is the same for each platform browser and mobile
 
 
 ## Installation
 
--I used a lot of the class code to get started from week one and two create website. It was a lot of coping and pasting exactly what I needed as well as understanding what it was used for
+-I used a lot of the class code to get started from weeks one and two to create a website. It was a lot of coping and pasting exactly what I needed as well as understanding what it was used for
 
 ## Usage
 ![image](https://user-images.githubusercontent.com/122588135/219582907-2fdd4644-4733-4d4f-bbd7-8e169d4a5ad8.png)
-Three differnet sheet for each application
+Three different sheet for each application
 
 ![image](https://user-images.githubusercontent.com/122588135/219583161-2101e385-2d44-4c07-9cc9-703e8c674f21.png)
-creating0 different classes to target soecific objects to design within CSS
+creating0 different classes to target specific objects to design within CSS
 
 ![image](https://user-images.githubusercontent.com/122588135/219583531-53813b9b-2079-4818-b133-8d499343d72f.png)
 media screen
